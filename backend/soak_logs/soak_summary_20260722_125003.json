@@ -1,0 +1,47 @@
+{
+  "run_at": "2026-07-22T10:50:04.916181+00:00",
+  "base_url": "https://192.168.1.11:8000",
+  "duration_hours_requested": 3.5,
+  "duration_seconds_actual": 12601.2,
+  "flow_stats": {
+    "total_sessions": 2427,
+    "successes": 2427,
+    "failures": 0,
+    "success_rate_pct": 100.0,
+    "avg_session_ms": 8445.6,
+    "per_kiosk": {
+      "kiosk1": {
+        "sessions": 614,
+        "success": 614,
+        "fail": 0
+      },
+      "kiosk4": {
+        "sessions": 595,
+        "success": 595,
+        "fail": 0
+      },
+      "kiosk3": {
+        "sessions": 608,
+        "success": 608,
+        "fail": 0
+      },
+      "kiosk2": {
+        "sessions": 610,
+        "success": 610,
+        "fail": 0
+      }
+    },
+    "top_errors": []
+  },
+  "uptime": {
+    "total_checks": 2520,
+    "ok": 2520,
+    "fail": 0,
+    "uptime_pct": 100.0,
+    "avg_latency_ms": 31.2,
+    "max_latency_ms": 92.4,
+    "failure_log": []
+  },
+  "log_file": "./soak_logs\\soak_test_20260722_125003.log",
+  "session_jsonl": "./soak_logs\\soak_sessions_20260722_125003.jsonl"
+}

@@ -1,0 +1,87 @@
+{
+  "run_at": "2026-07-22T07:14:49.059677+00:00",
+  "base_url": "https://192.168.1.11:8000",
+  "users": [
+    {
+      "label": "kiosk1",
+      "name": "LoadTest_kiosk1_1111",
+      "user_id": 10,
+      "success": true,
+      "error": null,
+      "total_score_end": 70,
+      "step_timings_ms": {
+        "register": 134.9,
+        "resume_by_qr": 40.1,
+        "mark_viewed": 173.8,
+        "start_quiz": 83.7,
+        "answer_all_questions": 231.2,
+        "submit_quiz": 9.2,
+        "submit_card_quizzes_2_4": 27.5,
+        "get_final_stats": 3.4
+      }
+    },
+    {
+      "label": "kiosk2",
+      "name": "LoadTest_kiosk2_6360",
+      "user_id": 8,
+      "success": true,
+      "error": null,
+      "total_score_end": 70,
+      "step_timings_ms": {
+        "register": 101.6,
+        "resume_by_qr": 5.7,
+        "mark_viewed": 15.9,
+        "start_quiz": 84.3,
+        "answer_all_questions": 313.1,
+        "submit_quiz": 20.1,
+        "submit_card_quizzes_2_4": 102.0,
+        "get_final_stats": 6.0
+      }
+    },
+    {
+      "label": "kiosk3",
+      "name": "LoadTest_kiosk3_8059",
+      "user_id": 9,
+      "success": true,
+      "error": null,
+      "total_score_end": 140,
+      "step_timings_ms": {
+        "register": 116.4,
+        "resume_by_qr": 7.5,
+        "mark_viewed": 17.5,
+        "start_quiz": 18.2,
+        "answer_all_questions": 279.0,
+        "submit_quiz": 9.6,
+        "submit_card_quizzes_2_4": 132.2,
+        "get_final_stats": 20.5
+      }
+    },
+    {
+      "label": "kiosk4",
+      "name": "LoadTest_kiosk4_2148",
+      "user_id": 7,
+      "success": true,
+      "error": null,
+      "total_score_end": 90,
+      "step_timings_ms": {
+        "register": 87.7,
+        "resume_by_qr": 22.0,
+        "mark_viewed": 36.4,
+        "start_quiz": 36.8,
+        "answer_all_questions": 94.9,
+        "submit_quiz": 68.0,
+        "submit_card_quizzes_2_4": 75.2,
+        "get_final_stats": 9.9
+      }
+    }
+  ],
+  "uptime": {
+    "total_checks": 30,
+    "successes": 30,
+    "failures": 0,
+    "uptime_pct": 100.0,
+    "avg_latency_ms": 29.0,
+    "max_latency_ms": 42.5,
+    "failure_log": []
+  }
+}
